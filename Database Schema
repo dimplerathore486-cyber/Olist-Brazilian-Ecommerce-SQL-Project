@@ -1,0 +1,11 @@
+| **Table Name**                        | **Primary Key (PK)**               | **Foreign Key (FK)**                  | **Description**                  |
+| ------------------------------------- | ---------------------------------- | ------------------------------------- | -------------------------------- |
+| **olist_customers_dataset**           | `customer_id`                      | —                                     | Customer information             |
+| **olist_orders_dataset**              | `order_id`                         | `customer_id`                         | Order details                    |
+| **olist_order_items_dataset**         | (`order_id`, `order_item_id`)      | `order_id`, `product_id`, `seller_id` | Products purchased in each order |
+| **olist_products_dataset**            | `product_id`                       | —                                     | Product information              |
+| **olist_sellers_dataset**             | `seller_id`                        | —                                     | Seller information               |
+| **olist_order_payments_dataset**      | (`order_id`, `payment_sequential`) | `order_id`                            | Payment details                  |
+| **olist_order_reviews_dataset**       | `review_id`                        | `order_id`                            | Customer reviews                 |
+| **olist_geolocation_dataset**         | *No Primary Key*                   | —                                     | Geolocation data                 |
+| **product_category_name_translation** | `product_category_name`            | —                                     | Category name translation        |
