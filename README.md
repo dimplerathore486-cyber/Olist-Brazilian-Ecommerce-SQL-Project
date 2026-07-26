@@ -107,11 +107,10 @@ The dataset contains:
 - Focus marketing efforts on high-performing states.
 - Increase inventory for top-selling categories.
 - Encourage digital payment methods using promotional offers.
-
+  
 ---
 
 ## 👩‍💻 Author
-
-**Dimple Rathore**
+**Dimple**
 
 SQL | Data Analytics | MySQL
